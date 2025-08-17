@@ -8,8 +8,8 @@ import json as _json2
 
 def main():
 
-    st.set_page_config(page_title="KISS Demand Forecasting — Teaching App", layout="wide")
-    st.title("KISS Demand Forecasting — Teaching App")
+    st.set_page_config(page_title="KISS Demand Forecasting", layout="wide")
+    st.title("KISS Demand Forecasting")
     st.markdown("**Goal:** Reveal each stage: Load → Clean → Split → Train → Forecast → Export")
 
     st.sidebar.subheader("Preset (optional)")

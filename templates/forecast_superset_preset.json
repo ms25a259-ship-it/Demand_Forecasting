@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "columns": [
+    {
+      "name": "Date",
+      "dtype": "date",
+      "required": true
+    },
+    {
+      "name": "SKU",
+      "dtype": "string",
+      "required": true
+    },
+    {
+      "name": "Sales_Qty",
+      "dtype": "number",
+      "required": true
+    },
+    {
+      "name": "Channel",
+      "dtype": "category",
+      "required": false
+    },
+    {
+      "name": "Region",
+      "dtype": "category",
+      "required": false
+    },
+    {
+      "name": "Price",
+      "dtype": "number",
+      "required": false
+    },
+    {
+      "name": "PromoFlag",
+      "dtype": "bool",
+      "required": false
+    },
+    {
+      "name": "HolidayFlag",
+      "dtype": "bool",
+      "required": false
+    }
+  ],
+  "defaults": {
+    "horizon_days": 60,
+    "conf_pct": 90,
+    "trend_mode": "linear",
+    "test_tail_days": 14
+  }
+}

@@ -4,3 +4,4 @@ plotly
 prophet
 openpyxl
 ngrok
+pyngrok
